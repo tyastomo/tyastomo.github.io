@@ -1,0 +1,39 @@
+a {
+    text-decoration: none;
+}
+.bg-blue{
+    background-color: #00FFF5;
+}
+.fill {
+    background-color: #393e46;
+}
+.card {
+    background-color: #222831;
+}
+.profile-img{
+    width: 20vmax;
+    border: 5px solid #00FFF5;
+}
+.text-blue{
+    color: #00FFF5;
+    text-decoration: none;
+}
+.btn-outline-blue {
+    color: #00FFF5;
+    background-color: transparent;
+    background-image: none;
+    border-color: #00FFF5;
+}
+
+@media (min-width:641px)  { 
+    .profile-img{
+        width: 17vmax;
+        border: 5px solid #00FFF5;
+    }
+}
+@media (min-width:961px)  { 
+    .profile-img{
+        width: 10vmax;
+        border: 5px solid #00FFF5;
+    }
+}
